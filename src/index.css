@@ -1,0 +1,284 @@
+ .product-list {
+   margin: 20px auto;
+   max-width: 800px;
+   padding: 20px;
+   background-color: #ffffff;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   font-family: Arial, sans-serif;
+ }
+
+
+ .product-list h2 {
+   text-align: center;
+   color: #333;
+   margin-bottom: 20px;
+ }
+
+
+ .product-table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 10px;
+ }
+
+ .product-table thead {
+   background-color: #f2f2f2;
+ }
+
+ .product-table th,
+ .product-table td {
+   border: 1px solid #ddd;
+   padding: 12px;
+   text-align: left;
+ }
+
+ .product-table th {
+   text-align: center;
+   color: #555;
+ }
+
+ .product-table td {
+   vertical-align: middle;
+ }
+
+
+ .product-table td:nth-child(4),
+ .product-table td:nth-child(5) {
+   text-align: center;
+ }
+
+
+ .edit-btn,
+ .delete-btn {
+   padding: 6px 12px;
+   font-size: 14px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+ }
+
+ .edit-btn {
+   background-color: #007bff;
+   color: #fff;
+   margin-right: 5px;
+ }
+
+ .edit-btn:hover {
+   background-color: #0056b3;
+ }
+
+ .delete-btn {
+   background-color: #d33;
+   color: #fff;
+ }
+
+ .delete-btn:hover {
+   background-color: #a00;
+ }
+
+ .product-list p {
+   text-align: center;
+   color: #666;
+   font-size: 16px;
+ }
+
+
+ .product-form-container {
+   width: 500px;
+   margin: 20px auto;
+   padding: 20px;
+   background-color: #ffffff;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   font-family: Arial, sans-serif;
+ }
+
+
+ .form-title {
+   text-align: center;
+   font-size: 24px;
+   color: #333;
+   margin-bottom: 20px;
+ }
+
+
+ .form-group {
+   margin-bottom: 15px;
+ }
+
+ .form-group label {
+   display: block;
+   margin-bottom: 5px;
+   font-weight: bold;
+   color: #555;
+ }
+
+ .form-group input {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 14px;
+   box-sizing: border-box;
+ }
+
+
+ .form-group input:focus {
+   border-color: #007bff;
+   outline: none;
+   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+ }
+
+
+ .btn-submit {
+   width: 100%;
+   background-color: #007bff;
+   color: white;
+   padding: 10px 15px;
+   border: none;
+   border-radius: 5px;
+   font-size: 16px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+ }
+
+ .btn-submit:hover {
+   background-color: #0056b3;
+ }
+
+ .btn-submit:disabled {
+   background-color: #ccc;
+   cursor: not-allowed;
+ }
+
+
+ .app-container {
+   font-family: Arial, sans-serif;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #f9f9f9;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+
+ header {
+   text-align: center;
+   margin-bottom: 30px;
+ }
+
+
+
+ .nav-links {
+   display: flex;
+   justify-content: center;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   background-color: #007bff;
+   border-radius: 5px;
+   overflow: hidden;
+ }
+
+ .nav-links li {
+   margin: 0 5px;
+ }
+
+ .nav-link {
+   display: inline-block;
+   padding: 10px 20px;
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+   transition: background-color 0.3s;
+ }
+
+ .nav-link:hover {
+   background-color: #0056b3;
+ }
+
+
+ main {
+   padding: 20px;
+   background: white;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+
+ .app-container {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f4f4f9;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+ }
+
+
+ .app-header {
+   background-color: #007bff;
+   color: white;
+   padding: 20px;
+   max-width: 906px;
+   width: 557px;
+   border-radius: 5px;
+   margin: auto;
+   text-align: center;
+   border-bottom: 4px solid #0056b3;
+ }
+
+ .app-title {
+   font-size: 28px;
+   margin: 0;
+ }
+
+
+ .app-menu {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   margin: 30px auto;
+   padding: 20px;
+   max-width: 800px;
+ }
+
+ .menu-card {
+   background-color: white;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   cursor: pointer;
+   text-align: center;
+   transition: transform 0.3s, box-shadow 0.3s;
+   width: 250px;
+ }
+
+ .menu-card:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+ }
+
+ .menu-card h2 {
+   margin: 10px 0;
+   font-size: 20px;
+   color: #333;
+ }
+
+ .menu-card p {
+   margin: 0;
+   color: #555;
+   font-size: 14px;
+ }
+
+
+ .app-main {
+   padding: 20px;
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+ }
